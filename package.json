@@ -1,14 +1,21 @@
-// foodmeta/package.json
 {
-  "name": "foodmeta-server",
+  "name": "foodmeta-railway-server",
   "version": "1.0.0",
-  "description": "Servidor de tempo real para FoodMeta .io",
+  "description": "Servidor de tempo real para FoodMeta Pub",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js" ðŸ‘ˆ **ISSO Ã‰ ESSENCIAL**
+    "start": "node server.js" 
   },
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.7.2"
-  }
+  },
+  "keywords": [
+    "nodejs",
+    "socketio",
+    "multiplayer",
+    "threejs"
+  ],
+  "author": "",
+  "license": "ISC"
 }
